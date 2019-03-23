@@ -1,0 +1,375 @@
+/* EVERYTHING FOR NAVAGATION BAR IS BELOW THIS LINE*/
+.header {
+  display: inline-flex;
+  position: fixed;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  height: 80px;
+  border-bottom: solid;
+  border-width: 1px;
+  align-items: center;
+  z-index: 5;
+  margin-top: -10px;
+
+}
+
+.logo {
+  display: flex;
+  margin-left: 30px;
+}
+
+.mytimes {
+  display: flex;
+
+  flex-grow: 1;
+  color: mediumaquamarine;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 100px;
+
+}
+.nav {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-around;
+}
+
+span {
+
+  margin-right: 50px;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+/*EVERYTHING FOR NAVIGATION BAR IS ABOVE THIS LINE*/
+
+main {
+  display: flex;
+  flex-direction: row;
+  max-width: 1600px;
+  margin-left: 100px;
+  margin-bottom: 80px;
+
+}
+
+.overall {
+  diplay: flex;
+  display: flex;
+  flex-direction: row;
+  max-width: 1600px;
+
+  /*border: 1px solid red;*/
+}
+
+.large {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 630px;
+  height: 1100px;
+  /*border: 1px solid red;*/
+}
+
+.winepicture {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-image: url("../resources/wine.png");
+}
+
+.motherheadline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  width: 630px;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.winetext {
+  display: flex;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+
+}
+
+.secondandthird {
+  display: flex;
+
+}
+
+
+.orca {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 230px;
+
+  margin-top: 40px;
+}
+
+.orcaheader {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.orcatext {
+  display: flex;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-top: 15px;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 230px;
+  /*border: 1px solid green;*/
+  margin-top: 40px;
+  margin-left: 5px;
+
+}
+
+.burgerheader {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  margin-left: 10px;
+}
+
+.burgertext {
+  display: flex;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.pictures {
+  display: flex;
+  width: 630px;
+  height: 315px;
+  margin-top: 50px;
+  margin-left: 2px;
+  /*border: 1px solid green;*/
+}
+
+.treepicture {
+  display: flex;
+  background-image: url("../resources/tree.png");
+  width: 300px;
+  height: 300px;
+}
+
+.treepicturetext {
+  display: flex;
+  text-align: center;
+  max-width: 300px;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+}
+
+
+.camerapicture {
+  display: flex;
+  background-image: url("../resources/camera.png");
+  width: 300px;
+  height: 300px;
+  margin-left: 24px;
+}
+
+.camerapicturetext {
+  display: flex;
+  text-align: center;
+  max-width: 300px;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+
+
+/*START OF SECOND COLUMN*/
+
+.medium {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 300px;
+  height: 1000px;
+  margin-left: 25px;
+  /*border: 1px solid blue;*/
+
+}
+
+.fbistory {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.fbiheadline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+
+.fbitext {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-top: 15px;
+}
+
+
+.catstory {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.catpicture {
+  display: flex;
+  background-image: url("../resources/cat.png");
+  width: 300px;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cattext {
+  display: flex;
+  margin-top: 13px;
+  /*border: 1px solid green;*/
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/*END OF SECOND COLUMN*/
+
+
+.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 800px;
+  /*border: 1px solid purple;*/
+  margin-top: 100px;
+  margin-left: 25px;
+}
+
+.cookie {
+  display: flex;
+  background-image: url("../resources/cookie.png");
+  width: 240px;
+  height: 240px;
+
+}
+
+.newsbites {
+  display: flex;
+  font-family: Georgia;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.stories {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.table {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 10px 20px 10px 20px;
+}
+
+/*END OF THIRD COLUMN*/
+
+
+footer {
+  display: flex;
+  flex-direction: column;;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.line1 {
+  display: flex;
+
+}
+
+.myt {
+  display: flex;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 20px;
+  border-right: 2px solid white;
+}
+
+.bottomlinks {
+  display: flex;
+  width: 230px;
+  margin-left: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  margin-top: 15px;
+}
